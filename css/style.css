@@ -31,7 +31,7 @@ nav a {
   text-decoration: none;
 }
 
-nav button {
+button {
   padding: 12px 24px;
   border: none;
   background-color: #e10600;
@@ -116,6 +116,10 @@ h1 {
   margin-bottom: 40px;
 }
 
+.section-header {
+  margin-bottom: 40px;
+}
+
 .team-card {
   background-color: #111111;
 
@@ -130,8 +134,9 @@ h1 {
 
 .team-card:hover {
   border-color: #e10600;
-
   transform: translateY(-5px);
+
+  box-shadow: 0 10px 20px rgba(225, 6, 0, 0.15);
 }
 
 .team-grid {
