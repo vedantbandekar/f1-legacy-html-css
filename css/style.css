@@ -101,3 +101,54 @@ h1 {
   font-size: 2rem;
   font-weight: bold;
 }
+
+#teams {
+  margin-top: 100px;
+  display: grid;
+  gap: 20px;
+}
+
+#teams h2 {
+  margin-bottom: 10px;
+}
+
+#teams > p {
+  margin-bottom: 40px;
+}
+
+.team-card {
+  background-color: #111111;
+
+  padding: 20px;
+
+  border: 1px solid #333;
+
+  border-radius: 12px;
+
+  transition: 0.3s;
+}
+
+.team-card:hover {
+  border-color: #e10600;
+
+  transform: translateY(-5px);
+}
+
+.team-grid {
+  display: grid;
+
+  grid-template-columns: repeat(4, 1fr);
+
+  gap: 20px;
+}
+
+.team-card h3 {
+  color: white;
+  margin: 10px 0;
+}
+
+.team-card p:first-child {
+  color: #e10600;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+}
