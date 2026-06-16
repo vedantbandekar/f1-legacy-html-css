@@ -71,6 +71,14 @@ section {
 .stat-card {
   background-color: #111111;
   padding: 20px;
-
   flex: 1;
+  border: 1px solid #333333;
+  border-radius: 12px;
+  transition: 0.3s;
+}
+
+.stat-card:hover {
+  border-color: #e10600;
+
+  transform: translateY(-5px);
 }
