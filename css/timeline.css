@@ -1,0 +1,73 @@
+#car-display {
+  display: grid;
+
+  grid-template-columns: repeat(3, 250px);
+
+  justify-content: center;
+
+  gap: 30px;
+}
+
+.car-card {
+  margin: 20px;
+
+  background: #111;
+
+  border: 1px solid #333;
+
+  padding: 25px;
+
+  border-radius: 12px;
+}
+
+#timeline {
+  min-height: 80vh;
+
+  padding: 80px 40px;
+
+  text-align: center;
+}
+
+#timeline h1 {
+  font-size: 48px;
+
+  margin-bottom: 40px;
+}
+
+.years button {
+  background: #111;
+
+  color: white;
+
+  border: 1px solid #e10600;
+
+  padding: 15px 35px;
+
+  font-size: 18px;
+
+  border-radius: 8px;
+
+  cursor: pointer;
+
+  transition: 0.3s;
+}
+
+.years button:hover {
+  background: #e10600;
+
+  transform: translateY(-5px);
+}
+
+#preview {
+  margin: 60px auto;
+
+  width: 500px;
+
+  background: #111;
+
+  padding: 40px;
+
+  border-radius: 15px;
+
+  border: 1px solid #e10600;
+}
